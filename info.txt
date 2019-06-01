@@ -5,6 +5,9 @@ GENERAL
 ` <-- this is a grave accent and denotes a template string, 
     which allows you to do this: `Server on port ${port}`
     It's like using %s in C or variable names in Java. 
+Middleware - software that acts as a bridge between an OS/database and applciations
+"npm run dev" uses the "dev" script which runs the server and client at the same time
+    via concurrently
 
 -----------------------------------------------------------------------------------
 
@@ -15,3 +18,17 @@ for POST, goto localhost:5000/api/items and put "Content-Type"
     for headers with value "application/json"
     then go to Body, then raw, then put in json data, then send
 for DELETE, goto localhost:5000/api/items/ID where ID is the id of the item to be deleted
+
+-----------------------------------------------------------------------------------
+
+FRONTEND
+
+do create-react-app . where . is in the client folder
+add a "proxy" to the package.json - "proxy": "http://localhost:5000"
+    for the get, post, delete with axios
+"--prefix client" is the same as cd client
+install bootstrap, reactstrap, uuid, and react-transition-group
+installing bootstrap/reactstrap:
+    npm install --save bootstrap
+    npm install --save reactstrap react react-dom
+    in index.js import 'bootstrap/dist/css/bootstrap.minmin.css';
