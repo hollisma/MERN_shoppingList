@@ -32,3 +32,21 @@ installing bootstrap/reactstrap:
     npm install --save bootstrap
     npm install --save reactstrap react react-dom
     in index.js import 'bootstrap/dist/css/bootstrap.minmin.css';
+
+-----------------------------------------------------------------------------------
+
+REACT
+
+to have a toggle(), put function outside class and either bind or do arrow 
+    to be able to use 'this' keyword
+
+-----------------------------------------------------------------------------------
+
+REACTSTRAP
+
+'dark' property makes text lighter. 
+<Container> centers its child. 
+<NavbarBrand> is the primary tab. 
+<NavbarToggler> is the hamburger menu when the screen is small. 
+'expand="sm/md/lg"' means that if the screen is sm/md/lg, the hamburger menu will appear.
+<Collapse> allows a <NavLink> to collapse into the hamburger menu. 
