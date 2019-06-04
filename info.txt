@@ -32,6 +32,7 @@ installing bootstrap/reactstrap:
     npm install --save bootstrap
     npm install --save reactstrap react react-dom
     in index.js import 'bootstrap/dist/css/bootstrap.minmin.css';
+Redux helps manage state of front end. Can be used without react
 
 -----------------------------------------------------------------------------------
 
@@ -39,6 +40,7 @@ REACT
 
 to have a toggle(), put function outside class and either bind or do arrow 
     to be able to use 'this' keyword
+proptypes: whenever you have component properties, should use proptypes, a form of validation
 
 -----------------------------------------------------------------------------------
 

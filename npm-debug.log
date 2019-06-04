@@ -7,7 +7,7 @@
 6 silly lifecycle mern_shopping_list@1.0.0~preclient: no script for preclient, continuing
 7 info lifecycle mern_shopping_list@1.0.0~client: mern_shopping_list@1.0.0
 8 verbose lifecycle mern_shopping_list@1.0.0~client: unsafe-perm in lifecycle true
-9 verbose lifecycle mern_shopping_list@1.0.0~client: PATH: /usr/share/npm/bin/node-gyp-bin:/home/hollismasta/Desktop/MERN/MERN_shoppingList/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+9 verbose lifecycle mern_shopping_list@1.0.0~client: PATH: /usr/share/npm/bin/node-gyp-bin:/home/hollismasta/Desktop/MERN/MERN_shoppingList/node_modules/.bin:/home/hollismasta/.local/bin:/home/hollismasta/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-10-oracle/bin:/usr/lib/jvm/java-10-oracle/db/bin:/usr/lib/jvm/java-10-oracle/bin:/usr/lib/jvm/java-10-oracle/db/bin:/usr/local/lib/node_modules/:/usr/local/lib/node_modules/
 10 verbose lifecycle mern_shopping_list@1.0.0~client: CWD: /home/hollismasta/Desktop/MERN/MERN_shoppingList
 11 silly lifecycle mern_shopping_list@1.0.0~client: Args: [ '-c', 'npm start --prefix client' ]
 12 silly lifecycle mern_shopping_list@1.0.0~client: Returned: code: 1  signal: null
