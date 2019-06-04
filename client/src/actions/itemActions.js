@@ -5,3 +5,10 @@ export const getItems = () => {
         type: GET_ITEMS
     }
 }
+
+export const deleteItem = (id) => {
+    return {
+        type: DELETE_ITEM,
+        payload: id  // send payload because reducer also needs to know id of item to be deleted
+    }
+}
