@@ -27,6 +27,7 @@
 		"config": "^3.0.1",
 		"express": "^4.16.3",
 		"mongoose": "^5.1.6",
+		"react-redux": "^7.0.3",
 		"reactstrap": "^8.0.0"
 	},
 	"devDependencies": {
