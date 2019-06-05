@@ -23,16 +23,12 @@
 	},
 	"homepage": "https://github.com/hollisma/MERN_shoppingList#readme",
 	"dependencies": {
-		"axios": "^0.19.0",
-		"bootstrap": "^4.3.1",
-		"concurrently": "^4.1.0",
-		"config": "^3.1.0",
-		"express": "^4.17.1",
-		"mongoose": "^5.5.12",
-		"react-redux": "^7.0.3",
-		"reactstrap": "^8.0.0",
-		"redux": "^4.0.1",
-		"redux-thunk": "^2.3.0"
+		"bcryptjs": "^2.4.3",
+		"concurrently": "^3.6.0",
+		"config": "^3.0.1",
+		"express": "^4.16.3",
+		"jsonwebtoken": "^8.5.0",
+		"mongoose": "^5.1.6"
 	},
 	"devDependencies": {
 		"nodemon": "^1.19.1"
